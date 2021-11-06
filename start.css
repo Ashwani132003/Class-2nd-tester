@@ -164,7 +164,7 @@ h3{
         background-image: url("373654.jpg"); 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         background-size: cover;
-        background-repeat:no-repeat;
+        background-repeat:repeat-y;
         overflow: hidden;
         overflow: scroll;
         height: 100%;
@@ -186,18 +186,18 @@ h3{
         
     }
     .container{
-        margin:0;
+        margin-left:50;
         margin-top: 55px;
-        width:180px;
-        height:120px;
+        width:0px;
+        height:20px;
         border-radius: 15px;
         padding:0px;
         font-size:26px;
         margin-bottom: 7px;
     }
     .questions{
-        margin-left: 30px;
-        width: 250px;
+        margin-left: 20px;
+        width: 300px;
         height: 500px;
         background-color: aliceblue;
         margin-top: 80px;
