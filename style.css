@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-image: url("984617.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:relative;
+    opacity:0.8;
+}
+
+
+
+
+.header{
+    padding:80px;
+    font-size:24px;
+    color: rgb(255, 41, 41);
+}
+
+.container{
+    width:840px;
+    height:450px;
+    color:black;
+    background-color:rgb(199, 151, 151);
+    margin:auto;
+    border:1px solid 1 1;
+    border-radius: 15px;
+    
+}
+.instruction{
+    font-size:22px;
+    padding:14px;
+}
+.content{
+    
+    margin:5px;
+    float: left;
+    font-size:25px;
+}
+ul{
+    white-space: nowrap;
+    overflow: auto;
+    padding:7px;
+    float: left;
+}
+
+li{ float: left;
+    padding:12px;
+    list-style:none;
+    margin: auto;
+    
+}
+
+.container button{
+    border-radius: 40px;
+    background-color: aqua;
+    margin:25px;
+    box-shadow: 0 3px yellow;
+    background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
+}
+.container button:hover{
+    background-color: rgb(114, 211, 24);
+}
+#start{
+    
+    font-weight: 20px;
+    font-size: 22px;
+    width:150px;
+    height:50px
+}
+
+
+
+
+@media (max-width: 500px) {
+    
+    .header{
+        padding:20px;
+
+        font-size:22px;
+        color: rgb(255, 41, 41);
+    }
+    
+    .container{
+        width:340px;
+        height:750px;
+        color:black;
+        background-color:rgb(199, 151, 151);
+        margin:auto;
+        border:1px solid 1 1;
+        border-radius: 15px;
+        
+    }
+    .instruction{
+        font-size:22px;
+        padding:14px;
+
+    }
+    .content{
+        width: 300px;
+        margin:5px;
+        font-size:22px;
+        overflow: scroll;
+    }
+    ul{
+        padding:7px;
+        float: left;
+    }
+    
+    li{ float: left;
+        padding:12px;
+        list-style:none;
+        margin: auto;
+        
+    }
+    
+    .container button{
+        border-radius: 40px;
+        background-color: aqua;
+        margin:25px;
+        box-shadow: 0 3px yellow;
+        background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
+    }
+    .container button:hover{
+        background-color: rgb(114, 211, 24);
+    }
+    #start{
+        
+        font-weight: 20px;
+        font-size: 22px;
+        width:150px;
+        height:50px
+    }
+
+
+}
