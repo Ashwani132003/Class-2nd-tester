@@ -27,17 +27,7 @@ a{
     text-decoration:none;
     
 }
-.container{
-    margin:auto;
-    margin-top: 105px;
-    width:1000px;
-    height:1200px;
-    background-color: rgba(255,41,41);
-    border-radius: 15px;
-    padding:10px;
-    font-size:26px;
-    margin-bottom: 7px;
-}
+
 .questions{
     width: 1000px;
     height: 1000px;
@@ -185,16 +175,7 @@ h3{
         text-decoration:none;
         
     }
-    .container{
-        margin-left:25px;
-        margin-top: 55px;
-        width:0px;
-        height:20px;
-        border-radius: 15px;
-        padding:0px;
-        font-size:26px;
-        margin-bottom: 7px;
-    }
+    
     .questions{
         margin-left: 25px;
         width: 300px;
